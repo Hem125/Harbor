@@ -32,3 +32,4 @@
 ![image](https://user-images.githubusercontent.com/103022040/169692851-272259cf-a96b-4f82-8dab-20e63f2859a6.png)
 - ### Generate a certificate signing request (CSR).
 ![image](https://user-images.githubusercontent.com/103022040/169692886-a5e165de-932e-4f4b-b0ac-f7948faee18e.png)
+### Push and pull in Harbor
