@@ -19,3 +19,16 @@
 ![image](https://user-images.githubusercontent.com/103022040/169692015-24d6d4c8-ad3a-4917-9104-4d788d77fc16.png)
 - ### add the domain name and the path where we want to generate certificate
 ![image](https://user-images.githubusercontent.com/103022040/169692106-31cfcc99-ed46-480e-85b6-ba2e9db1b881.png)
+- ### run the following command to install harbor
+![image](https://user-images.githubusercontent.com/103022040/169692590-646f2339-30f5-4050-b740-f2f5b71811d1.png)
+- ### after running the command harbor will be installed successfully
+![image](https://user-images.githubusercontent.com/103022040/169692662-b7e0bf55-5255-45b7-bd61-58b8ae50f181.png)
+### Harbor certificate
+- ### run the following command to generate a CA certificate private key.
+![image](https://user-images.githubusercontent.com/103022040/169692752-ee1ec8e5-8651-4e0d-bdb8-9f1aa631a58f.png)
+- ### Generate the CA certificate. Adapt the values in the -subj option to reflect your organization
+![image](https://user-images.githubusercontent.com/103022040/169692808-262ba4af-a9df-4188-a6b0-a1e5bfa4ef22.png)
+- ### generate a private key for server certificate
+![image](https://user-images.githubusercontent.com/103022040/169692851-272259cf-a96b-4f82-8dab-20e63f2859a6.png)
+- ### Generate a certificate signing request (CSR).
+![image](https://user-images.githubusercontent.com/103022040/169692886-a5e165de-932e-4f4b-b0ac-f7948faee18e.png)
