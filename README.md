@@ -23,6 +23,7 @@
 ![image](https://user-images.githubusercontent.com/103022040/169692590-646f2339-30f5-4050-b740-f2f5b71811d1.png)
 - ### after running the command harbor will be installed successfully
 ![image](https://user-images.githubusercontent.com/103022040/169692662-b7e0bf55-5255-45b7-bd61-58b8ae50f181.png)
+
 ### Harbor certificate
 - ### run the following command to generate a CA certificate private key.
 ![image](https://user-images.githubusercontent.com/103022040/169692752-ee1ec8e5-8651-4e0d-bdb8-9f1aa631a58f.png)
@@ -32,4 +33,20 @@
 ![image](https://user-images.githubusercontent.com/103022040/169692851-272259cf-a96b-4f82-8dab-20e63f2859a6.png)
 - ### Generate a certificate signing request (CSR).
 ![image](https://user-images.githubusercontent.com/103022040/169692886-a5e165de-932e-4f4b-b0ac-f7948faee18e.png)
+- ### make change in host file and add domain with ip
+![image](https://user-images.githubusercontent.com/103022040/169693008-3244d18f-df69-45ba-b328-f4c09276c670.png)
+
 ### Push and pull in Harbor
+- ### run the docker compose up command to restart harbor service
+![image](https://user-images.githubusercontent.com/103022040/169693047-4704ab69-5cc3-4ff6-8f7b-244cce1d00e1.png)
+- ### login using following command
+![image](https://user-images.githubusercontent.com/103022040/169693086-d064d35d-97d5-4430-a966-0d5d0bc37569.png)
+- ### push using following command
+![image](https://user-images.githubusercontent.com/103022040/169693124-1c872101-b376-42e4-99d8-191f96f8d5b5.png)
+- ### we can verify by going in harbor ui interface
+![image](https://user-images.githubusercontent.com/103022040/169693154-7d451a33-ad2b-44d2-82e1-49e4ece5f159.png)
+- ### pull using following command
+![image](https://user-images.githubusercontent.com/103022040/169693175-da31dba1-efeb-45da-8102-6235d0adebaf.png)
+
+
+
