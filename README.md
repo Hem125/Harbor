@@ -48,5 +48,10 @@
 - ### pull using following command
 ![image](https://user-images.githubusercontent.com/103022040/169693175-da31dba1-efeb-45da-8102-6235d0adebaf.png)
 
+### *Jenkins Pipeline Integration to Harbor*
+- ## go to jenkins and add a new pipeline 
+![image](https://user-images.githubusercontent.com/103022040/169793826-85d16ae3-22de-4329-9e3c-2bad24356102.png)
+- ## go to pipeline tab and write the script 
+![image](https://user-images.githubusercontent.com/103022040/169794399-3a338b6a-258c-4d74-bd01-42a505c4f52f.png)
 
 
