@@ -60,7 +60,7 @@
 - ### Push the tag image to harbor repository 
 ![pushed harbor](https://user-images.githubusercontent.com/103022040/169801763-358d831e-921b-4cb8-a8e8-02c2f013b091.JPG)
 - ### In the sudoers file give permission and open it with vi editor
-![pushed harbor](https://user-images.githubusercontent.com/103022040/169801937-a61e9ae6-df84-4d16-a532-e0e2fac6f181.JPG)
+![permission harbor](https://user-images.githubusercontent.com/103022040/169812492-12ffa425-ca1d-4490-b820-bb23932bb5ac.JPG)
 - ### Change the highlighted line in vi editor 
 ![add edit line permission](https://user-images.githubusercontent.com/103022040/169802741-2ba571a0-f577-4e15-9d90-51e4ca4e1aa9.JPG)
 - ### Go to pipeline and click on build now
