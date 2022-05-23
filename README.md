@@ -48,10 +48,26 @@
 - ### pull using following command
 ![image](https://user-images.githubusercontent.com/103022040/169693175-da31dba1-efeb-45da-8102-6235d0adebaf.png)
 
-### *Jenkins Pipeline Integration to Harbor*
-- ## go to jenkins and add a new pipeline 
+## *Jenkins Pipeline Integration to Harbor*
+- ### go to jenkins and add a new pipeline 
 ![image](https://user-images.githubusercontent.com/103022040/169793826-85d16ae3-22de-4329-9e3c-2bad24356102.png)
-- ## go to pipeline tab and write the script 
+- ### go to pipeline tab and write the script 
 ![image](https://user-images.githubusercontent.com/103022040/169794399-3a338b6a-258c-4d74-bd01-42a505c4f52f.png)
+- ### In the pipeline clone code from bit bucket
+![image](https://user-images.githubusercontent.com/103022040/169801369-c1febae1-1c35-4e31-a837-f3da1509bc81.png)
+- ### Build image using docker file and tag with a name
+![image](https://user-images.githubusercontent.com/103022040/169801529-7987479d-736d-45fc-aa5f-bf728b61e384.png)
+- ### Push the tag image to harbor repository 
+![pushed harbor](https://user-images.githubusercontent.com/103022040/169801763-358d831e-921b-4cb8-a8e8-02c2f013b091.JPG)
+- ### In the sudoers file give permission and open it with vi editor
+![pushed harbor](https://user-images.githubusercontent.com/103022040/169801937-a61e9ae6-df84-4d16-a532-e0e2fac6f181.JPG)
+- ### Change the highlighted line in vi editor 
+![add edit line permission](https://user-images.githubusercontent.com/103022040/169802741-2ba571a0-f577-4e15-9d90-51e4ca4e1aa9.JPG)
+- ### Go to pipeline and click on build now
+![image](https://user-images.githubusercontent.com/103022040/169802808-3be0d19b-a813-48d9-9963-53059f75357b.png)
+- ### Pipeline run successful 
+![harbor pipeline](https://user-images.githubusercontent.com/103022040/169802936-831bf5d6-b57d-44b0-a929-89d570d56ac1.JPG)
+- ### One can verify that in harbor ui with latest tag
+![image](https://user-images.githubusercontent.com/103022040/169803257-4052a6cb-40c5-4216-9b00-1878f8a57aba.png)
 
 
