@@ -52,11 +52,11 @@
 - ### go to jenkins and add a new pipeline 
 ![image](https://user-images.githubusercontent.com/103022040/169793826-85d16ae3-22de-4329-9e3c-2bad24356102.png)
 - ### go to pipeline tab and write the script 
-![image](https://user-images.githubusercontent.com/103022040/169794399-3a338b6a-258c-4d74-bd01-42a505c4f52f.png)
+![image](https://user-images.githubusercontent.com/103022040/169952884-d07b15c2-dcc0-41ab-a3b2-7d3b24fd2c96.png)
 - ### In the pipeline clone code from bit bucket
 ![image](https://user-images.githubusercontent.com/103022040/169801369-c1febae1-1c35-4e31-a837-f3da1509bc81.png)
 - ### Build image using docker file and tag with a name
-![image](https://user-images.githubusercontent.com/103022040/169801529-7987479d-736d-45fc-aa5f-bf728b61e384.png)
+![tag harbor](https://user-images.githubusercontent.com/103022040/169952954-70e72baf-52d4-4214-b3f2-bc9651b02b87.JPG)
 - ### Push the tag image to harbor repository 
 ![pushed harbor](https://user-images.githubusercontent.com/103022040/169801763-358d831e-921b-4cb8-a8e8-02c2f013b091.JPG)
 - ### In the sudoers file give permission and open it with vi editor
