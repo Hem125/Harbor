@@ -1,5 +1,5 @@
 ## Harbor
-- #### link for harbor helping document  https://intellipaat.com/community/11512/setup-secured-jenkins-master-with-docker
+- #### link for harbor helping document  https://gitee.com/edgegallery/installer/blob/Release-v1.5/ansible_install/README-en.md
 - #### link for harbor helping document   https://nosolovirtual.com/harbor-registro-y-escaner-de-vulnerabilidades-de-imagenes-docker/
 - ### first make sure that docker and docker compose are installed . 
 ![image](https://user-images.githubusercontent.com/103022040/169688594-745df4ab-42ce-4738-a3f1-67f5aeed8c18.png)
