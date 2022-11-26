@@ -73,3 +73,44 @@
 ![image](https://user-images.githubusercontent.com/103022040/169803257-4052a6cb-40c5-4216-9b00-1878f8a57aba.png)
 
 
+Certifcate in leyman
+
+openssl genrsa -out ca.key 4096
+
+openssl req -x509 -new -nodes -sha512 -days 3650 \
+ -subj "/C=IN/ST=Haryana/L=Gurgaon/O=Amantya/OU=IT/CN=test-registry.amantyatech.com" \
+ -key ca.key \
+ -out ca.crt
+
+
+openssl genrsa -out test-registry.amantyatech.com.key 4096
+
+
+openssl req -sha512 -new \
+    -subj "/C=IN/ST=Haryana/L=Gurgaon/O=Amantya/OU=IT/CN=test-registry.amantyatech.com" \
+    -key test-registry.amantyatech.com.key \
+    -out test-registry.amantyatech.com.csr
+
+
+cat > v3.ext <<-EOF
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1=test-registry.amantyatech.com
+DNS.2=amantyaharbor
+DNS.3=hostname
+EOF
+
+
+openssl x509 -req -sha512 -days 3650 \
+    -extfile v3.ext \
+    -CA ca.crt -CAkey ca.key -CAcreateserial \
+    -in test-registry.amantyatech.com.csr \
+    -out test-registry.amantyatech.com.crt
+
+
+
